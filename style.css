@@ -1,0 +1,30 @@
+
+html, body, div.container {
+    height: 100%;
+}
+.container{
+	background-image: url(moon.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+
+h1{
+	margin: 20px 0px 10px 0px;
+
+	color: white;
+	text-align: center;
+	font-size: 80px;
+}
+
+button{
+	margin: 0px auto 50px;
+	max-width: 170px;
+	max-height: 20px;
+	padding: 3px 7px 20px;
+	background-color: #FCCDFF;
+	text-transform: uppercase;
+}
